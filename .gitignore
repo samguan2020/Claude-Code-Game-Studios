@@ -19,9 +19,8 @@ production/session-logs/
 expansions/
 
 
-# === Games (each is its own independent git repo, developed with this ===
-# === studio's agentic system but tracked/pushed separately) ===
-Games/
+# === Games (each is its own git repo, developed with this studio's ===
+# === agentic system, tracked here as a git submodule — see .gitmodules) ===
 
 # === Marrow (eval tooling — never commit) ===
 marrow/

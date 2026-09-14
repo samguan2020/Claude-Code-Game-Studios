@@ -1,0 +1,9 @@
+[submodule "Games/tower-of-doom"]
+	path = Games/tower-of-doom
+	url = https://github.com/samguan2020/tower-of-doom.git
+[submodule "Games/ai-town"]
+	path = Games/ai-town
+	url = D:/Repos/.local-remotes/ai-town.git
+[submodule "Games/charadai-concept"]
+	path = Games/charadai-concept
+	url = D:/Repos/.local-remotes/charadai-concept.git
