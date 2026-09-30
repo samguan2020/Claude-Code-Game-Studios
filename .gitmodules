@@ -6,4 +6,4 @@
 	url = D:/Repos/.local-remotes/ai-town.git
 [submodule "Games/charadai-concept"]
 	path = Games/charadai-concept
-	url = D:/Repos/.local-remotes/charadai-concept.git
+	url = https://github.com/samguan2020/charadai-concept.git
