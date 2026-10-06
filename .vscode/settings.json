@@ -1,0 +1,20 @@
+{
+  "github.copilot.chat.codeGeneration.useInstructionFiles": true,
+  "chat.useAgentSkills": true,
+  "chat.useAgentsMdFile": true,
+  "chat.useClaudeMdFile": false,
+  "chat.useClaudeHooks": false,
+  "chat.agentFilesLocations": {
+    ".github/agents": true,
+    ".claude/agents": false
+  },
+  "chat.agentSkillsLocations": {
+    ".github/skills": true,
+    ".claude/skills": false,
+    ".agents/skills": false
+  },
+  "chat.instructionsFilesLocations": {
+    ".github/instructions": true,
+    ".claude/rules": false
+  }
+}

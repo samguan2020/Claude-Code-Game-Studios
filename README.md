@@ -134,6 +134,24 @@ Type `/` in Claude Code to access all 73 skills:
 
 ## Getting Started
 
+### GitHub Copilot in VS Code
+
+This fork also ports the studio to GitHub Copilot: **49 custom agents, 73 skills,
+and 11 path-scoped instruction files**. It preserves the upstream Claude Code
+configuration and existing Codex configuration.
+
+Open this repository root in VS Code, enable GitHub Copilot Chat, and reload the
+window after pulling the configuration. Select a studio role from the agent
+picker, or use the Agent role and invoke `/help`, `/start`, or `/team-combat`.
+The workspace settings select the Copilot definitions instead of duplicate
+Claude/Codex skills. For an existing game, identify the target submodule before
+running a workflow; the root template's unconfigured engine is not that game's
+configuration.
+
+See [Copilot migration and activation](docs/copilot-migration.md) for setup,
+tool/delegation differences, verification commands, and limitations. Claude
+hooks and automatic agent memory are **not** installed in Copilot by this port.
+
 ### Prerequisites
 
 - [Git](https://git-scm.com/)

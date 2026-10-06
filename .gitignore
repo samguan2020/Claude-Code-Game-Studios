@@ -1,6 +1,5 @@
 # === IDE and Editor ===
 .vs/
-.vscode/settings.json
 .idea/
 *.swp
 *.swo
